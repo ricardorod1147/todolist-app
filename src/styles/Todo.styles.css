@@ -1,0 +1,29 @@
+.todo-card {
+  width: 15%;
+  height: 8rem;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px #368b85;
+  padding: 20px;
+  box-shadow: 14px 18px 8px -1px rgba(0, 0, 0, 0.22);
+}
+
+.todo-card:hover {
+  background-color: #eeeeee;
+}
+
+.todo-actions button {
+  width: 6rem;
+  height: 2rem;
+  background-color: #368b85;
+  color: white;
+  border-radius: 10px;
+}
+
+.todo-actions button:hover {
+  background-color: white;
+  color: #368b85;
+}
